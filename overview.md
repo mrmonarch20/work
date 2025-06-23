@@ -1,4 +1,4 @@
-### 🧪 **DevOps Intern Assignment: Nginx Reverse Proxy + Docker**
+## 🧪 **DevOps Intern Assignment: Nginx Reverse Proxy + Docker**
 
 You are expected to set up a simple system where:
 
