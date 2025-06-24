@@ -8,6 +8,7 @@ import (
 
 func main() {
 	http.HandleFunc("/ping", func(w http.ResponseWriter, r *http.Request) {
+		log.Printf("Health check request from %s", r.RemoteAddr)
 		jsonResponse(w, map[string]string{
 			"status":  "ok",
 			"service": "1",

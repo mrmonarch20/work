@@ -22,7 +22,8 @@ This is a lightweight HTTP service written in Python using Flask. It exposes two
 #### Run with Python:
 
 ```bash
-uv run app.py
+uv run
+ app.py
 ```
 
 This will start the server on port `8002`.
